@@ -7,7 +7,7 @@ __*n*__ and going down to 1:
  
 ###### n! = n * (n-1) * 2 * 1
 
-But notice that **(n−1)⋯2⋅1** is another way of writing *(n-1)!*, and so we can say that n! = n * (n-1)! Did you see what we just did? We wrote *n!* as a product in which one of the factors is (n-1)! (n−1)!. We said that you can compute n! n! by computing (n-1)! (n−1)! and then multiplying the result of computing (n-1)! (n−1)! by n n. You can compute the factorial function on n n by first computing the factorial function on n-1 n−1. We say that computing (n-1)! (n−1)! is a subproblem that we solve to compute n n!.
+But notice that **(n-1)*2⋅1** is another way of writing *(n-1)!*, and so we can say that n! = n * (n-1)! Did you see what we just did? We wrote *n!* as a product in which one of the factors is *(n-1)!*. We said that you can compute *n!* by computing *(n-1)!* and then multiplying the result of computing *(n-1)!* by *n*. You can compute the factorial function on *n* by first computing the factorial function on *n-1*. We say that computing *(n-1)!* is a subproblem that we solve to compute n!.
 
 * Let's look at an example: computing 5!.
 	* You can compute 5! as 5 * 4!
