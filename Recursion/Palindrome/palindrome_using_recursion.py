@@ -2,7 +2,7 @@ from Tests.Program import assert_equal  # A Test Function
 
 
 def first_character(word):
-    return word[0, 1]
+    return word[0:1]
 
 
 def last_character(word):
@@ -10,7 +10,7 @@ def last_character(word):
 
 
 def middle_characters(word):
-    return word[1, -1]
+    return word[1:-1]
 
 
 def is_palindrome(word):
@@ -30,7 +30,7 @@ def is_palindrome(word):
 
 
 def check_palindrome(testString):
-    print("Is this word a palindrome? ", testString)
+    print("\nIs this word a palindrome? ", testString)
     print(is_palindrome(testString))
 
 
