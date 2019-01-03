@@ -6,10 +6,10 @@ What if the string contains two or more letters? Here's where we'll have our rec
 
 So here's how we can recursively determine whether a string is a palindrome. If the first and last letters differ, then declare that the string is not a palindrome. Otherwise, strip off the first and last letters, and determine whether the string that remains—the subproblem—is a palindrome. Declare the answer for the shorter string to be the answer for the original string. Once you get down to a string with no letters or just one letter, declare it to be a palindrome.
 
-How would we describe that in pseudocode?
+How would we describe that in pseudo code?
     * If the string is made of no letters or just one letter, then it is a palindrome.
     
     * Otherwise, compare the first and last letters of the string.
-        If the first and last letters differ, then the string is not a palindrome.
+       If the first and last letters differ, then the string is not a palindrome.
     
     * Otherwise, the first and last letters are the same. Strip them from the string, and determine whether the string that remains is a palindrome. Take the answer for this smaller string and use it as the answer for the original string.
